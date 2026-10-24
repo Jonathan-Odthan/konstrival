@@ -1,0 +1,12 @@
+<!doctype html><html lang="ht"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>KONSTRIVAL Admin</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,sans-serif;background:#f4f4f4;color:#111}header{background:#0b0b0b;color:#fff;padding:10px 14px;display:flex;justify-content:space-between;align-items:center}main{max-width:820px;margin:auto;padding:14px}
+.card{background:#fff;border-radius:10px;padding:14px;margin:0 0 14px;box-shadow:0 1px 3px #0002}label{display:block;font-weight:600;margin:10px 0 4px}input,select,textarea{width:100%;padding:12px;font-size:16px;border:1px solid #bbb;border-radius:8px}
+button{padding:14px 18px;font-size:16px;border:0;border-radius:8px;background:#0b0b0b;color:#fff;font-weight:600;margin:4px 4px 4px 0}button.r{background:#d00}button.s{background:#666;padding:8px 12px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}.stats div{background:#fff;padding:12px;border-radius:8px;text-align:center}.stats b{display:block;font-size:1.8rem;color:#d00}
+.m{display:flex;gap:8px;align-items:center;border-top:1px solid #eee;padding:8px 0;flex-wrap:wrap}.m img,.m video{width:90px;height:70px;object-fit:cover;border-radius:6px}#msg{position:fixed;left:10px;right:10px;bottom:10px;padding:12px;border-radius:8px;color:#fff;display:none}.ok{background:#128c4a}.er{background:#d00}.row{display:flex;justify-content:space-between;align-items:center;gap:8px;border-top:1px solid #eee;padding:10px 0}
+</style></head><body>
+<header><b>KONSTRIVAL Admin</b><button id="out" class="s" hidden>Dekonekte</button></header>
+<main id="app"></main><div id="msg" role="status"></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="config.js"></script><script src="admin.js"></script><script src="manage.js"></script></body></html>
